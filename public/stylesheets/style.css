@@ -131,8 +131,7 @@ body {
 
 
 .navbar_items_contact ul li a:hover i{
-
-          box-shadow: 4px 4px 4px 10px #46750b;
+  box-shadow: 4px 4px 4px 10px #46750b;
   cursor: pointer;
 
 }
@@ -142,18 +141,18 @@ width: 20px;
 }
 
 
-#header .header-content p {
+ .header-content p {
   font-size: 1.2rem;
   text-align: center;
   margin: 1.2rem 0;
   padding:0 0.2rem;
 }
 
-#header .header-content .button-container {
+ .header-content .button-container {
   margin: 1rem 0;
 }
 
-#header .header-content .button-container a {
+ .header-content .button-container a {
   display: inline-block;
   padding: 0.6rem 1.2rem;
   text-decoration: none;
@@ -167,7 +166,7 @@ width: 20px;
   z-index: 1;
 }
 
-#header .header-content .button-container a::before {
+ .header-content .button-container a::before {
   content: "";
   display: block;
   position: absolute;
@@ -181,19 +180,19 @@ width: 20px;
   z-index: -1;
 }
 
-#header .header-content .button-container a:hover::before {
+ .header-content .button-container a:hover::before {
   height: 100%;
 }
 
-#header .header-content .button-container a:hover {
+ .header-content .button-container a:hover {
   color: #46750b;
 }
 
-#header .header-content .button-container a:hover i {
+ .header-content .button-container a:hover i {
   color: #46750b;
 }
 
-#header .header-content .button-container a i {
+ .header-content .button-container a i {
   color: white;
 }
 
@@ -204,14 +203,14 @@ width: 20px;
   padding: 5rem 0rem;
 }
 
-#about .about-heading h2 {
+ .about-heading h2 {
   font-weight: bold;
   letter-spacing: 0.3rem;
   position: relative;
   display: inline-block;
 }
 
-#about .about-heading h2::before {
+ .about-heading h2::before {
   position: absolute;
   content: "";
   display: inline-block;
@@ -226,8 +225,7 @@ width: 20px;
   animation-direction: alternate-reverse;
 }
 
-
-#about .about-heading h2::after {
+ .about-heading h2::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -239,12 +237,12 @@ width: 20px;
   display: inline-block;
 }
 
-#about .about-heading h2 span {
+ .about-heading h2 span {
   background: #46750b;
   padding: 0.6rem 1.2rem;
 }
 
-#about .img-holder {
+ .img-holder {
   padding: 1rem;
   background: linear-gradient(240deg, #46750b 50%, black 50%);
   border-radius: 1rem;
@@ -298,17 +296,16 @@ width: 20px;
   }
 }
 
-#about .img-holder img {
+ .img-holder img {
   padding: 0.2rem;
   border: 0.1rem solid white;
   border-radius: 1rem;
 }
 
-#about .about-text {
+ .about-text {
   padding: 0 2rem;
 }
-
-#about .about-text h3 {
+ .about-text h3 {
   font-size: 3rem;
 }
 
@@ -316,11 +313,11 @@ width: 20px;
   font-size: 1.1rem;
 }
 
-#about .about-text .shortdesc {
+ .about-text .shortdesc {
   padding-top: 1.2rem;
 }
 
-#about .about-text .shortdesc .contain .first {
+ .about-text .shortdesc .contain .first {
   min-width: 4rem;
   width: 12rem;
   color: #eeeeee;
@@ -331,16 +328,15 @@ width: 20px;
   border-radius: 4px;
 }
 
-#about .about-text .shortdesc .contain .second {
+ .about-text .shortdesc .contain .second {
   font-weight: lighter;
   margin-left: 10px;
 }
 
-#about .about-text .socialicons {
+ .about-text .socialicons {
   padding-top: 1.2rem;
 }
-
-#about .about-text .socialicons a {
+ .about-text .socialicons a {
   display: inline-block;
   text-decoration: none;
   
@@ -350,21 +346,20 @@ width: 20px;
   transition: 0.5s ease;
 }
 
-#about .about-text .socialicons a:hover {
+ .about-text .socialicons a:hover {
   background: #46750b;
 }
 
-#about .about-text .socialicons a i {
+ .about-text .socialicons a i {
   font-size: 1.2rem;
   padding: 1rem;
 }
 
-#about .about-text .button-container {
+ .about-text .button-container {
   margin: 1rem 0;
   padding: 1rem 0;
 }
-
-#about .about-text .button-container a {
+ .about-text .button-container a {
   display: inline-block;
   padding: 0.6rem 1.2rem;
   text-decoration: none;
@@ -379,7 +374,7 @@ width: 20px;
   margin-top: 1rem;
 }
 
-#about .about-text .button-container a::before {
+ .about-text .button-container a::before {
   content: "";
   display: block;
   position: absolute;
@@ -392,19 +387,19 @@ width: 20px;
   z-index: -1;
 }
 
-#about .about-text .button-container a:hover::before {
+ .about-text .button-container a:hover::before {
   height: 100%;
 }
 
-#about .about-text .button-container a:hover {
+ .about-text .button-container a:hover {
   color: #46750b;
 }
 
-#about .about-text .button-container a:hover i {
+ .about-text .button-container a:hover i {
   color: #46750b;
 }
 
-#about .about-text .button-container a i {
+ .about-text .button-container a i {
   color: white;
 }
 
@@ -425,14 +420,14 @@ width: 20px;
 #skills .skillp {
   color: #eeeeee;
 }
-#skills .skills-heading h2 {
+ .skills-heading h2 {
   font-weight: bold;
   letter-spacing: 0.3rem;
   position: relative;
   display: inline-block;
 }
 
-#skills .skills-heading h2::before {
+ .skills-heading h2::before {
   position: absolute;
   content: "";
   display: inline-block;
@@ -443,8 +438,7 @@ width: 20px;
   height: 0.7rem;
   border-radius: 50%;
   margin-top: 1.2rem;
-  
-          animation: move 3s infinite linear;
+  animation: move 3s infinite linear;
   animation-direction: alternate-reverse;
 }
 
@@ -457,7 +451,7 @@ width: 20px;
   }
 }
 
-#skills .skills-heading h2::after {
+ .skills-heading h2::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -469,7 +463,7 @@ width: 20px;
   display: inline-block;
 }
 
-#skills .skills-heading h2 span {
+ .skills-heading h2 span {
   background: #46750b;
   padding: 0.6rem 1.2rem;
 }
@@ -505,18 +499,18 @@ width: 20px;
   padding: 7rem 0 5rem 0;
 }
 
-#contact .contact-heading p {
+ .contact-heading p {
   text-transform: capitalize;
 }
 
-#contact .contact-heading h2 {
+ .contact-heading h2 {
   font-weight: bold;
   letter-spacing: 0.3rem;
   position: relative;
   display: inline-block;
 }
 
-#contact .contact-heading h2::before {
+ .contact-heading h2::before {
   position: absolute;
   content: "";
   display: inline-block;
@@ -540,7 +534,7 @@ width: 20px;
   }
 }
 
-#contact .contact-heading h2::after {
+ .contact-heading h2::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -552,16 +546,16 @@ width: 20px;
   display: inline-block;
 }
 
-#contact .contact-heading h2 span {
+ .contact-heading h2 span {
   background: #46750b;
   padding: 0.6rem 1.2rem;
 }
 
-#contact .address h3 {
+ .address h3 {
   margin-bottom: 1rem;
 }
 
-#contact .address h3::after {
+ .address h3::after {
   content: "";
   width: 12%;
   height: 0.2rem;
@@ -569,51 +563,65 @@ width: 20px;
   display: block;
 }
 
-#contact .address p {
+.address p {
   margin: 1.8rem 0;
 }
 
-#contact .address span {
+ .address span {
   color: #46750b;
 }
 
-#contact .address .commondiv {
+ .address .commondiv {
+  background-color: #ffffff;
   border: 2px solid rgba(255, 255, 255, 0.08);
   padding: 0.6rem;
   margin: 1rem 0;
+  border-radius: 25px;
 }
 
-#contact .address .commondiv:hover {
+ .address .commondiv:hover {
   
-  box-shadow: 0 4px 12px #46750b;
+  box-shadow: 5px 8px 12px #46750b;
   cursor: pointer;
 }
 
-#contact .address .commondiv p {
+ .address .commondiv p {
   margin: 0;
 }
 
-#contact .address .commondiv .icon {
+ .address .commondiv .icon {
   text-align: center;
   background: #46750b;
   padding: 1rem;
   border-radius: 0.5rem;
 }
 
-#contact .address .commondiv .icon i {
+ .address .commondiv .icon i {
   padding: 0.6rem;
 }
 
-#contact .address .commondiv .text {
+ .address .commondiv .text {
   padding-left: 0.8rem;
   padding-top: 0.8rem;
+ 
+}
+.address .commondiv .text h6{
+  color: #000000;
+  font-weight: 900;
+
+}
+.address .commondiv .text small a {
+  color: #000000;
+  font-weight: 900;
+  text-decoration:none;
+ 
 }
 
-#contact .contactform {
+ .contactform {
   padding-left: 1rem;
 }
 
-#contact .contactform h3 {
+ .contactform h3 {
   margin-bottom: 1rem;
 }
 
@@ -681,7 +689,7 @@ width: 20px;
   padding: 0.6rem 1.2rem;
   background: none;
   outline: 0.1rem solid transparent;
-  border: 2px solid rgba(255, 255, 255, 0.08);
+  border: 2px solid rgb(238, 147, 10);
 }
 
 #contact .contactform form textarea:focus {
@@ -694,11 +702,12 @@ width: 20px;
 }
 
 #contact .contactform form .nameemail input {
+  
   padding: 0.6rem 1.2rem;
   width: 45%;
   background: none;
   outline: 0.1rem solid transparent;
-  border: 2px solid rgba(255, 255, 255, 0.08);
+  border: 2px solid rgb(238, 147, 10);
 }
 
 #contact .contactform form .nameemail input:focus {
@@ -714,7 +723,7 @@ width: 20px;
   width: 45%;
   background: none;
   outline: 0.1rem solid transparent;
-  border: 2px solid rgba(255, 255, 255, 0.08);
+  border: 2px solid rgb(238, 147, 10);
 }
 
 #contact .contactform form .subnumber input:focus {
@@ -722,7 +731,7 @@ width: 20px;
 }
 
 #contact .map {
-  border: 2px solid rgba(255, 255, 255, 0.08);
+  border: 2px solid rgb(238, 147, 10);
   padding: 0.1rem;
   background: #46750b;
   border-radius: 2rem;
