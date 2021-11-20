@@ -245,7 +245,7 @@ width: 20px;
   padding: 1rem;
   background: linear-gradient(240deg, #46750b 50%, black 50%);
   border-radius: 1rem;
-  
+  /* background-image: url("../images/yashas_about.JPG");  */
   animation: hai 2s infinite linear;
 }
 
