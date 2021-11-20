@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const axios = require('axios')
 /* GET home page. */
-console.log("helloooooo")
+
 router.get('/', function(req, res, next) {
 
   
@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
       console.error(error)
     }
   }
-  
+  console.log(typeof getGetHubData)
   res.render('projects', { getGetHubData: getGetHubData });
 });
 
