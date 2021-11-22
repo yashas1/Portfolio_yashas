@@ -37,9 +37,10 @@ body {
     opacity: 0;
   }
 }
- nav .navbar-brand {
-  color: #46750b;
+ #header nav .navbar-brand {
+  color: #73e471;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 #header nav .navbar-nav .nav-item {
@@ -99,7 +100,7 @@ body {
 }
 
 #header .header-content h2 span {
-  color: #46750b;
+  color: rgb(214, 101, 26);
   font-weight: bold;
 }
 
@@ -567,7 +568,8 @@ width: 20px;
 }
 
  .address span {
-  color: #46750b;
+  color: #5ce233;
+  font-weight: bold;
 }
 
  .address .commondiv {
