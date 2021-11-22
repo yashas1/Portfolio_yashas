@@ -27,7 +27,7 @@ body {
  .fontchanage{
   font-family: 'Hurricane', cursive;
 }
-#header #blinkh5 {
+ #blinkh5 {
   
   animation: blinker 100ms linear infinite;
 }
@@ -495,7 +495,7 @@ width: 20px;
 /*---Contact Section---*/
 
 #contact {
-  padding: 7rem 0 5rem 0;
+  padding: 6rem 0 2rem 0;
 }
 
  .contact-heading p {
@@ -515,7 +515,7 @@ width: 20px;
   display: inline-block;
   top: 100%;
   left: 0;
-  background: #46750b;
+  background: #b6ec74;
   width: 0.7rem;
   height: 0.7rem;
   border-radius: 50%;
@@ -730,19 +730,18 @@ width: 20px;
 }
 
 #contact .map {
-  border: 2px solid rgb(238, 147, 10);
   padding: 0.1rem;
-  background: #46750b;
   border-radius: 2rem;
   overflow: hidden;
 }
 
 #contact .map:hover {
-box-shadow: 0 6px 16px #46750b;
+  box-shadow: 1px 7px 12px rgb(53, 88, 7);
+  border: 2px solid rgba(0, 0, 0, 0.644);
 }
 
 #contact .map iframe {
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 0.1rem;
 }
 
@@ -1037,10 +1036,12 @@ cursor: pointer;
 
 #footer small i {
   color: red;
+  
 }
 
 #footer small span {
-  color: #46750b;
+  color: #0dff2d;
+  font-weight: bold;
 }
 
  .navbar_items_footercontact ul{
