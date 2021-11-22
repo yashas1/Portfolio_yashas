@@ -22,7 +22,7 @@
   </head>
   <body>
 
-      <!---Navigation Bar Section-->
+      <!--- Header Navigation Bar Section-->
     <div id="header">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
@@ -58,10 +58,18 @@
   <section id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-12 text-center">
-          <hr>
+        <hr>
+        <div class="col-6 text-center">
           <small>Made with <i class="fas fa-heart"></i> By : <span>Yashas Bhadregowda</span> </small>
         </div>
+         <div class="col-6 ">
+        <div class="navbar_items_footercontact">
+			   <ul>
+        <li><small class="fontchanage" >Check My profile:</small></li>
+				<li><a class="nav-link" href="https://github.com/yashas1" target="_blank"> <i class="fab fa-github-square fa"></i> </a></li>
+				<li><a class="nav-link" href="https://www.linkedin.com/in/yashas-b-67b5a9122/" target="_blank"> <i class="fab fa-linkedin fa"></i></a></li>
+			 </ul>
+		  </div>
       </div>
     </div>
   </section>
@@ -72,6 +80,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <!--Initialise AOS-->
+<!-- For making the blink design in home page -->
 <script>
   AOS.init();
 </script>
@@ -88,9 +97,11 @@
   </script>
 
 
-
-  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+<!--- Jquery for bootstrsp-->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
+
+<!--- Script for project page My prortoflio to activate -->
 <script>
     $(document).ready(function () {
       $('.list').click(function () {
