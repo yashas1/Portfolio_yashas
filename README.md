@@ -15,7 +15,7 @@ This Project code is available in the root folder of the project repository as Y
 ##### Pre-requisites: 
 - Install Node version v14.17.6
 - Insatll React version v16.8.6 
-- Install dependencies like ***passport, express, axios, mongoose, passport-jwt and react dependencies***
+- Install dependencies like ***cookie-parser, express, axios, http-errors***
 ##### Program Execution Locally: 
 - Go main folder ProfileAPPUpdated and execute below command in your terminal to install the node modules.
     ```
